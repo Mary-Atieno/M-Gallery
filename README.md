@@ -8,7 +8,7 @@ MARY ATIENO
 
 ## DESCRIPTION
 
-This is a photo gallery web Application where you can view different photos and see the details of each photo.You can also search a photo by category.
+A personal gallery made using Django that displays images of different types of things and allows people to see them.
 
 ## Features
 
@@ -49,9 +49,13 @@ Use the command given below to run automated tests.
 ## TECHNOLOGIES USED
 
 Django - web framework used
+
 Javascript - For DOM(Document Object Manipulation) scripts
+
 HTML - For building Mark Up pages/User Interface
+
 CSS - For Styling User Interface
+
 CONTACTS
 maryatieno@gmail.com
 

@@ -56,7 +56,8 @@ HTML - For building Mark Up pages/User Interface
 
 CSS - For Styling User Interface
 
-CONTACTS
+## CONTACTS
+
 maryatieno@gmail.com
 
 ## LIVE LINK

@@ -1,7 +1,7 @@
 from django.db import models
 import pyperclip
 import random
-# from pyuploadcare.dj.models import ImageField
+from pyuploadcare.dj.models import ImageField
 # Create your models here.
 
 class Location(models.Model):

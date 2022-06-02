@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #000;
+    font-family: 'Lateef', cursive;
+}
+
+.jumbotron{
+    background: #fff;
+}
+
+button:focus {
+    outline:0;
+}
+
+::selection {
+    background-color: #333;
+    color: #fff;
+}
+
+.list-inline-item > a{
+    color: #000;
+}
+
+.no-radius{
+    border-radius: 0;
+}
+
+.no-border{
+    border-style: none;
+}
+
+.lightbox{
+    cursor: zoom-in;
+}
+
+.locale:hover{
+    color: #fff;
+    background-color: #333;
+}
+
+a .links{
+    color: #000;
+}
+
+div .social{
+    display: flex;
+}
+
+span .badge{
+    color: #fff;
+    background-color: #333;
+    opacity: 0.79;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, #ccc, #000, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #000, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #000, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #000, #ccc);
+    }
+
+.gallery-block {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.gallery-block .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2 {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    text-transform: full-width;
+}
+
+.gallery-block.compact-gallery .item {
+    overflow: hidden;
+    margin-bottom: 0;
+    background: black;
+    opacity: 1;
+}
+
+.gallery-block.compact-gallery .item .image {
+    transition: 0.8s ease;
+}
+
+.gallery-block.compact-gallery .item .info {
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-block.compact-gallery .item .description {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 18px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 1;
+    color: #fff;
+    transition: 0.8s ease;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
+}
+
+.gallery-block.compact-gallery .item .description .description-heading {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.gallery-block.compact-gallery .item .description .description-body {
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+@media (min-width: 368px) {
+
+    .gallery-block.compact-gallery .item .description {
+        opacity: 0;
+    }
+
+    .gallery-block.compact-gallery .item a:hover .description {
+        opacity: 1;
+    }
+
+    .gallery-block .zoom-on-hover:hover .image {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+}
+
+#nav a{
+    color: #000;
+}
+
+#nav{
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.head{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
